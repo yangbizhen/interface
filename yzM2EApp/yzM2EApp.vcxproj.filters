@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{f2f076a4-0a51-46cc-a140-5ab45b7e4b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MfcCommon">
+      <UniqueIdentifier>{9df6b1d0-ee6e-4f55-b353-cd3dea545352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{fb48b8f1-0d84-427f-ba1d-0124dccdc278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\当前实验界面">
+      <UniqueIdentifier>{a643f8cc-8363-4194-b10b-2b5b98934d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\问卷调查">
+      <UniqueIdentifier>{445ed55c-a805-4913-8d53-2ed0fbe65411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\实验日志">
+      <UniqueIdentifier>{c5f6c162-6e06-4fdf-b789-977721b7acab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件">
+      <UniqueIdentifier>{82eeb3e3-f476-4f35-88f6-31a01b4487e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件\List">
+      <UniqueIdentifier>{eff9adab-2d3f-47c5-8a77-2b7b980a53db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件\MSG">
+      <UniqueIdentifier>{4358a604-4f00-4dc0-990a-4406b3d57661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件\button">
+      <UniqueIdentifier>{ef84bba4-3116-46e5-a86b-04066c3a8ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件\圆形图片">
+      <UniqueIdentifier>{e1845948-9f18-4112-9f9d-b939d373e97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面\自定义控件\Edit">
+      <UniqueIdentifier>{bffb8c9c-6a63-4b4f-886c-3bb4abf53e21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="yzM2EApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="yzM2EAppDlg.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDcWnd.h">
+      <Filter>MfcCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDialog.h">
+      <Filter>界面\当前实验界面</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>MfcCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLogDialog.h">
+      <Filter>界面\当前实验界面</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionDialog.h">
+      <Filter>界面\当前实验界面</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>MfcCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogButton.h">
+      <Filter>MfcCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMessage.h">
+      <Filter>界面\自定义控件\MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>界面\自定义控件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenIrritate.h">
+      <Filter>界面\当前实验界面</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>界面\自定义控件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundStatic.h">
+      <Filter>界面\自定义控件\圆形图片</Filter>
+    </ClInclude>
+    <ClInclude Include="DLEdit.h">
+      <Filter>界面\自定义控件\Edit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yzM2EApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="yzM2EAppDlg.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MemDcWnd.cpp">
+      <Filter>MfcCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDialog.cpp">
+      <Filter>界面\当前实验界面</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>MfcCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLogDialog.cpp">
+      <Filter>界面\当前实验界面</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionDialog.cpp">
+      <Filter>界面\当前实验界面</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>MfcCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogButton.cpp">
+      <Filter>MfcCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>界面\自定义控件\button</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenIrritate.cpp">
+      <Filter>界面\当前实验界面</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>界面\自定义控件\List</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundStatic.cpp">
+      <Filter>界面\自定义控件\圆形图片</Filter>
+    </ClCompile>
+    <ClCompile Include="DLEdit.cpp">
+      <Filter>界面\自定义控件\Edit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="yzM2EApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\yzM2EApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\yzM2EApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="login_bk.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon8.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\online.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
